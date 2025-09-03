@@ -87,6 +87,7 @@ sudo crontab -e
 ````
 
 # Firewalld
+ip адреса 192.168.1.64-192.168.1.254 задействованы в лабораторной 1
 ````
 sudo firewall-cmd --permanent --zone=mysqlzone --add-port=3306/tcp
 ````
